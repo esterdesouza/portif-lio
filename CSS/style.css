@@ -66,7 +66,7 @@ section.posts {
 }
 
 section.posts h2 {
-    text-align: center;
+    /*text-align: center;*/
     font-size: 1.2rem;
 }
 
@@ -141,19 +141,44 @@ footer nav p a{
     display: flex;
     justify-content: right;
  }
+ main section h2{
+    text-align: left;
+ }
  header nav ul li{
     margin: 0px 20px 0px 20px;
  }
  section.banner {
     display: flex;
     flex-direction: row-reverse;
+    padding: 0 10vw 0 10vw;
  }
  section.banner div.texto{
-    width: 50%;
+
     text-align: left;
     padding: 0 10vw 0 0;
  }
  section.banner img{
     width: 100%;
  }
+ section.posts ul{
+    display: flex;
+    margin: 1vw 0 0 0;
+ }
+ section.posts{
+    padding: 3vw 10vw 3vw 10vw;
+ }
+ section.posts ul li{
+    margin: 0 1vw 0 1vw;
+ }
+ section.works ul{
+    display: flex;
+ }
+ section.works{
+    padding: 3vw 10vw 3vw 10vw;
+ }
+ section.works h2{
+    font-size: 2rem;
+    padding: 0 0 3vw 0;
+ }
+
 }
